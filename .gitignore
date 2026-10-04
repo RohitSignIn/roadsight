@@ -1,0 +1,29 @@
+# Trained models and generated media stay local.
+models/*.pt
+storage/
+outputs/
+uploads/
+.runtime/
+
+# Python
+.venv/
+__pycache__/
+.pytest_cache/
+*.py[cod]
+
+# Frontend
+node_modules/
+dist/
+coverage/
+*.tsbuildinfo
+test-results/
+playwright-report/
+
+# Local settings
+.env
+.env.*
+!.env.example
+
+# Isolated implementation worktrees
+.worktrees/
+
