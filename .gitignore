@@ -1,5 +1,6 @@
-# Trained models and generated media stay local.
+# Include the app checkpoint; other trained models and generated media stay local.
 models/*.pt
+!models/best.pt
 storage/
 outputs/
 uploads/

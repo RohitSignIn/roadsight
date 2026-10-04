@@ -25,7 +25,7 @@ RoadSight is a local-first vehicle detection web application built around the tr
 
 ## First-time setup
 
-The trained checkpoint is not distributed in this repository. Before running detection, create a `models` directory and place your compatible trained YOLO checkpoint at `models/best.pt`.
+The trained vehicle detection checkpoint is included in this repository at `models/best.pt` and is ready to use after cloning.
 
 From the repository root:
 
